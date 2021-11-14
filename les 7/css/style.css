@@ -1,0 +1,28 @@
+.all {
+  background-color: rgb(253, 222, 126) ;
+  width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bronze{
+  position: relative;
+  width: 360px;
+  height: 441px;
+  padding-left: 30px;
+  padding-top: 80px;
+}
+.gold {
+  position: relative;
+  padding-left: 30px;
+  padding-top: 50px;
+  width: 360px;
+  height: 500px;
+}
+.silver {
+  position: relative;
+  padding-left: 30px;
+  padding-top: 80px;
+  width: 360px;
+  height: 441px;
+}
