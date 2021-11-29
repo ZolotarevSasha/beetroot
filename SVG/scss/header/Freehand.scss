@@ -1,0 +1,32 @@
+.Freehand {
+    position: relative;
+    width: 1155px;
+    height: 80px;
+
+    &__img {
+        position: relative;
+        width: 26px;
+        height: 25.93px;
+        margin-left: 160px;
+        margin-top: 42px;
+    }
+
+    &__text {
+        position: relative;
+        width: 157px;
+        height: 35px;
+        font-size: 35px;
+        line-height: 35px;
+        font-weight: 500;
+        margin-left: 200px;
+        margin-top: -38px;
+    }
+
+    &__line {
+        border: 1px solid #EFEEF3;
+        width: 1155px;
+        height: 0px;
+        margin-left: 158px;
+        margin-top: 45px;
+    }
+}

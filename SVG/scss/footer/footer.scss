@@ -1,0 +1,123 @@
+.footer {
+
+    .footer {
+        width: 1440px;
+        height: 194px;
+        background: #16133D;
+        margin-top: -3581px;
+        border-radius: 0px;
+
+        &__img {
+            position: relative;
+            width: 26px;
+            height: 25.93px;
+            margin-left: 160px;
+            margin-top: 40px;
+        }
+
+        &__free {
+            position: relative;
+            color: #F2F2F2;
+            width: 157px;
+            height: 35px;
+            font-size: 35px;
+            line-height: 35px;
+            font-weight: 500;
+            margin-top: -36px;
+            margin-left: 200px;
+        }
+    }
+
+
+    &__borderInst {
+        position: relative;
+        width: 38px;
+        height: 38px;
+        background-color: #EFEEF3;
+        border-radius: 5px;
+        margin-left: 161px;
+        margin-top: 45.07px;
+    }
+
+    &__inst {
+        position: relative;
+        width: 200.01px;
+        height: 20.01px;
+        margin-left: -322px;
+        margin-bottom: 9px;
+
+    }
+
+    &__face {
+        position: relative;
+
+        width: 10px;
+        height: 18.67px;
+        margin-left: -60px;
+        margin-bottom: 9px;
+    }
+
+    &__borderFace {
+        position: relative;
+        width: 38px;
+        height: 38px;
+        background-color: #EFEEF3;
+        border-radius: 5px;
+        margin-left: 8px;
+        margin-top: 45.07px;
+    }
+
+    &__cat {
+        position: relative;
+        width: 20px;
+        height: 19.5px;
+        margin-left: 31px;
+        margin-bottom: 9px;
+    }
+
+    &__borderCat {
+        position: relative;
+        width: 38px;
+        height: 38px;
+        background-color: #EFEEF3;
+        border-radius: 5px;
+        margin-left: 8px;
+        margin-top: 45.07px;
+    }
+
+    &__ball {
+        position: relative;
+        width: 19.38px;
+        height: 19.38px;
+        margin-left: 25px;
+        margin-bottom: 9px;
+    }
+
+    &__borderBall {
+        position: relative;
+        width: 38px;
+        height: 38px;
+        background-color: #EFEEF3;
+        border-radius: 5px;
+        margin-left: 8px;
+        margin-top: 45.07px;
+    }
+
+    &__twit {
+        position: relative;
+        width: 20px;
+        height: 16.24px;
+        margin-left: 27px;
+        margin-bottom: 9px;
+    }
+
+    &__borderTwit {
+        position: relative;
+        width: 38px;
+        height: 38px;
+        background-color: #EFEEF3;
+        border-radius: 5px;
+        margin-left: 8px;
+        margin-top: 45.07px;
+    }
+}

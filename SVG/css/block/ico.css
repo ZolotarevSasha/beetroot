@@ -1,0 +1,19 @@
+.service__bordermic {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  margin-top: 41px;
+  margin-left: 41px;
+  background: #FFFFFF;
+  border: 1px solid #E5EAF4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+}
+.service__mic {
+  position: relative;
+  width: 38.46px;
+  height: 34.73px;
+  margin-left: -50px;
+  margin-bottom: 15px;
+}

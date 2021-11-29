@@ -3,19 +3,19 @@
   height: 4294px;
 }
 
-.head {
+.Freehand {
   position: relative;
   width: 1155px;
   height: 80px;
 }
-.head__img {
+.Freehand__img {
   position: relative;
   width: 26px;
   height: 25.93px;
   margin-left: 160px;
   margin-top: 42px;
 }
-.head__text {
+.Freehand__text {
   position: relative;
   width: 157px;
   height: 35px;
@@ -25,7 +25,7 @@
   margin-left: 200px;
   margin-top: -38px;
 }
-.head__line {
+.Freehand__line {
   border: 1px solid #EFEEF3;
   width: 1155px;
   height: 0px;
@@ -33,7 +33,7 @@
   margin-top: 45px;
 }
 
-.service {
+.textContent {
   position: relative;
   width: 1158px;
   height: 472px;
@@ -42,8 +42,8 @@
   margin-bottom: 3649px;
   margin-left: 156px;
 }
-.service .service_head {
-  position: relative;
+.textContent_head {
+  display: inline;
   width: 108px;
   height: 21px;
   margin-top: -50px;
@@ -51,8 +51,7 @@
   line-height: 21px;
   color: #7690A8;
 }
-.service .sercive__text {
-  position: relative;
+.textContent__text {
   width: 377px;
   height: 52px;
   font-size: 40px;
@@ -61,8 +60,7 @@
   margin-top: 17px;
   font-weight: 600;
 }
-.service .service__design {
-  position: relative;
+.textContent__design {
   width: 360px;
   height: 347px;
   margin-top: 35px;
@@ -72,27 +70,7 @@
           box-sizing: border-box;
   background: #FFFFFF;
 }
-.service .service__design .service__bordermic {
-  position: relative;
-  width: 64px;
-  height: 64px;
-  margin-top: 41px;
-  margin-left: 41px;
-  background: #FFFFFF;
-  border: 1px solid #E5EAF4;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 8px;
-}
-.service .service__design .service__mic {
-  position: relative;
-  width: 38.46px;
-  height: 34.73px;
-  margin-left: -50px;
-  margin-bottom: 15px;
-}
-.service .service__design .service__des {
-  position: relative;
+.textContent__des {
   width: 178px;
   height: 22px;
   font-size: 24px;
@@ -101,8 +79,7 @@
   padding-top: 28px;
   padding-left: 41px;
 }
-.service .service__design .service__lorem {
-  position: relative;
+.textContent__textLor {
   width: 274px;
   height: 84px;
   font-size: 16px;
@@ -110,8 +87,7 @@
   margin-top: 14px;
   margin-left: 41px;
 }
-.service .service__design .service__learn {
-  position: relative;
+.textContent__learn {
   width: 96px;
   height: 19px;
   font-size: 16px;
@@ -120,7 +96,8 @@
   margin-left: 41px;
   color: 16133D;
 }
-.service .service__ecco {
+
+.secondBlock {
   position: relative;
   width: 360px;
   height: 347px;
@@ -132,26 +109,7 @@
   margin-left: 399px;
   margin-top: -347px;
 }
-.service .service__ecco .service__bordermaf {
-  width: 64px;
-  height: 64px;
-  margin-top: 41px;
-  margin-left: 41px;
-  background: #FFFFFF;
-  border: 1px solid #E5EAF4;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 8px;
-  position: relative;
-}
-.service .service__ecco .service__maf {
-  width: 38.46px;
-  height: 34.73px;
-  margin-left: -55px;
-  margin-bottom: 15px;
-  position: relative;
-}
-.service .service__ecco .service__eco {
+.secondBlock__Eco {
   width: 178px;
   height: 22px;
   font-size: 24px;
@@ -161,8 +119,7 @@
   padding-left: 41px;
   position: relative;
 }
-.service .service__ecco .service__loremEcco {
-  position: relative;
+.secondBlock__eccoText {
   width: 274px;
   height: 84px;
   font-size: 16px;
@@ -170,69 +127,7 @@
   margin-top: 14px;
   margin-left: 41px;
 }
-.service .service__ecco .service__learn {
-  position: relative;
-  height: 19px;
-  font-size: 16px;
-  line-height: 18.75px;
-  margin-top: 29px;
-  margin-left: 41px;
-  color: 16133D;
-  width: 96px;
-}
-.service .service__application {
-  position: relative;
-  width: 360px;
-  height: 347px;
-  background: #FFFFFF;
-  border: 1px solid #E5EAF4;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 8px;
-  margin-left: 797px;
-  margin-top: -350px;
-  margin-right: 126px;
-}
-.service .service__application .service__borderapp {
-  position: relative;
-  width: 64px;
-  height: 64px;
-  margin-top: 41px;
-  margin-left: 41px;
-  background: #FFFFFF;
-  border: 1px solid #E5EAF4;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 8px;
-}
-.service .service__application .service__mob {
-  width: 38.46px;
-  height: 34.73px;
-  margin-left: -55px;
-  margin-bottom: 15px;
-  position: relative;
-}
-.service .service__application .service__app {
-  width: 178px;
-  height: 22px;
-  font-size: 24px;
-  line-height: 21.28px;
-  color: #16133D;
-  padding-top: 28px;
-  padding-left: 41px;
-  position: relative;
-}
-.service .service__application .service__loremApp {
-  position: relative;
-  width: 274px;
-  height: 84px;
-  font-size: 16px;
-  line-height: 28px;
-  margin-top: 14px;
-  margin-left: 41px;
-}
-.service .service__application .service__learn {
-  position: relative;
+.secondBlock__learn {
   height: 19px;
   font-size: 16px;
   line-height: 18.75px;
@@ -242,8 +137,7 @@
   width: 96px;
 }
 
-.service__ecco:hover {
-  position: relative;
+.secondBlock:hover {
   height: 347px;
   border-radius: 8px;
   border: 1px solid green;
@@ -255,7 +149,7 @@
   width: 360px;
 }
 
-.service__maf:hover {
+.secondBlock__maf:hover {
   width: 38.46px;
   height: 34.73px;
   margin-left: -55px;
@@ -264,21 +158,118 @@
   fill: #52C29D;
 }
 
-.footer {
+.thirdBlock {
+  width: 360px;
+  height: 347px;
+  background: #FFFFFF;
+  border: 1px solid #E5EAF4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  margin-left: 797px;
+  margin-top: -350px;
+  margin-right: 126px;
+}
+.thirdBlock__app {
+  width: 178px;
+  height: 22px;
+  font-size: 24px;
+  line-height: 21.28px;
+  color: #16133D;
+  padding-top: 28px;
+  padding-left: 41px;
+  position: relative;
+}
+.thirdBlock__appText {
+  width: 274px;
+  height: 84px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 14px;
+  margin-left: 41px;
+}
+.thirdBlock__learn {
+  height: 19px;
+  font-size: 16px;
+  line-height: 18.75px;
+  margin-top: 29px;
+  margin-left: 41px;
+  color: 16133D;
+  width: 96px;
+}
+
+.textContent__bordermic {
+  width: 64px;
+  height: 64px;
+  margin-top: 41px;
+  margin-left: 41px;
+  background: #FFFFFF;
+  border: 1px solid #E5EAF4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+}
+.textContent__mic {
+  width: 38.46px;
+  height: 34.73px;
+  margin-left: -50px;
+  margin-bottom: 15px;
+}
+
+.secondBlock__bordermaf {
+  width: 64px;
+  height: 64px;
+  margin-top: 41px;
+  margin-left: 41px;
+  background: #FFFFFF;
+  border: 1px solid #E5EAF4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  position: relative;
+}
+.secondBlock__maf {
+  width: 38.46px;
+  height: 34.73px;
+  margin-left: -55px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.thirdBlock__borderapp {
+  width: 64px;
+  height: 64px;
+  margin-top: 41px;
+  margin-left: 41px;
+  background: #FFFFFF;
+  border: 1px solid #E5EAF4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+}
+.thirdBlock__mob {
+  width: 38.46px;
+  height: 34.73px;
+  margin-left: -55px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.footer .footer {
   width: 1440px;
   height: 194px;
   background: #16133D;
   margin-top: -3581px;
   border-radius: 0px;
 }
-.footer__img {
+.footer .footer__img {
   position: relative;
   width: 26px;
   height: 25.93px;
   margin-left: 160px;
   margin-top: 40px;
 }
-.footer__free {
+.footer .footer__free {
   position: relative;
   color: #F2F2F2;
   width: 157px;
@@ -289,7 +280,6 @@
   margin-top: -36px;
   margin-left: 200px;
 }
-
 .footer__borderInst {
   position: relative;
   width: 38px;
