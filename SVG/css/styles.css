@@ -70,15 +70,6 @@
           box-sizing: border-box;
   background: #FFFFFF;
 }
-.textContent__des {
-  width: 178px;
-  height: 22px;
-  font-size: 24px;
-  line-height: 21.28px;
-  color: #16133D;
-  padding-top: 28px;
-  padding-left: 41px;
-}
 .textContent__textLor {
   width: 274px;
   height: 84px;
@@ -109,16 +100,6 @@
   margin-left: 399px;
   margin-top: -347px;
 }
-.secondBlock__Eco {
-  width: 178px;
-  height: 22px;
-  font-size: 24px;
-  line-height: 21.28px;
-  color: #16133D;
-  padding-top: 28px;
-  padding-left: 41px;
-  position: relative;
-}
 .secondBlock__eccoText {
   width: 274px;
   height: 84px;
@@ -138,6 +119,7 @@
 }
 
 .secondBlock:hover {
+  width: 360px;
   height: 347px;
   border-radius: 8px;
   border: 1px solid green;
@@ -146,7 +128,6 @@
   background: #FFFFFF;
   margin-left: 399px;
   margin-top: -347px;
-  width: 360px;
 }
 
 .secondBlock__maf:hover {
@@ -170,16 +151,6 @@
   margin-top: -350px;
   margin-right: 126px;
 }
-.thirdBlock__app {
-  width: 178px;
-  height: 22px;
-  font-size: 24px;
-  line-height: 21.28px;
-  color: #16133D;
-  padding-top: 28px;
-  padding-left: 41px;
-  position: relative;
-}
 .thirdBlock__appText {
   width: 274px;
   height: 84px;
@@ -198,7 +169,7 @@
   width: 96px;
 }
 
-.textContent__bordermic {
+.borderIco {
   width: 64px;
   height: 64px;
   margin-top: 41px;
@@ -208,54 +179,27 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 8px;
-}
-.textContent__mic {
-  width: 38.46px;
-  height: 34.73px;
-  margin-left: -50px;
-  margin-bottom: 15px;
 }
 
-.secondBlock__bordermaf {
-  width: 64px;
-  height: 64px;
-  margin-top: 41px;
-  margin-left: 41px;
-  background: #FFFFFF;
-  border: 1px solid #E5EAF4;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 8px;
-  position: relative;
-}
-.secondBlock__maf {
+.ico {
   width: 38.46px;
   height: 34.73px;
   margin-left: -55px;
   margin-bottom: 15px;
+}
+
+.textHeading {
+  width: 178px;
+  height: 22px;
+  font-size: 24px;
+  line-height: 21.28px;
+  color: #16133D;
+  padding-top: 28px;
+  padding-left: 41px;
   position: relative;
 }
 
-.thirdBlock__borderapp {
-  width: 64px;
-  height: 64px;
-  margin-top: 41px;
-  margin-left: 41px;
-  background: #FFFFFF;
-  border: 1px solid #E5EAF4;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 8px;
-}
-.thirdBlock__mob {
-  width: 38.46px;
-  height: 34.73px;
-  margin-left: -55px;
-  margin-bottom: 15px;
-  position: relative;
-}
-
-.footer .footer {
+.footer {
   width: 1440px;
   height: 194px;
   background: #16133D;

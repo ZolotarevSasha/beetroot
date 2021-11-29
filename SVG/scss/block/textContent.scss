@@ -37,17 +37,6 @@
         background: #FFFFFF;
     }
 
-    &__des {
-
-        width: 178px;
-        height: 22px;
-        font-size: 24px;
-        line-height: 21.28px;
-        color: #16133D;
-        padding-top: 28px;
-        padding-left: 41px;
-    }
-
     &__textLor {
         width: 274px;
         height: 84px;
@@ -79,16 +68,6 @@
     margin-left: 399px;
     margin-top: -347px;
 
-    &__Eco {
-        width: 178px;
-        height: 22px;
-        font-size: 24px;
-        line-height: 21.28px;
-        color: #16133D;
-        padding-top: 28px;
-        padding-left: 41px;
-        position: relative;
-    }
 
     &__eccoText {
         width: 274px;
@@ -111,6 +90,7 @@
 }
 
 .secondBlock:hover {
+    width: 360px;
     height: 347px;
     border-radius: 8px;
     border: 1px solid green;
@@ -118,7 +98,6 @@
     background: #FFFFFF;
     margin-left: 399px;
     margin-top: -347px;
-    width: 360px;
 }
 
 .secondBlock__maf:hover {
@@ -132,7 +111,6 @@
 
 
 .thirdBlock {
-
     width: 360px;
     height: 347px;
     background: #FFFFFF;
@@ -142,17 +120,6 @@
     margin-left: 797px;
     margin-top: -350px;
     margin-right: 126px;
-
-    &__app {
-        width: 178px;
-        height: 22px;
-        font-size: 24px;
-        line-height: 21.28px;
-        color: #16133D;
-        padding-top: 28px;
-        padding-left: 41px;
-        position: relative;
-    }
 
     &__appText {
         width: 274px;

@@ -1,68 +1,16 @@
-.textContent {
-
-
-    &__bordermic {
-        width: 64px;
-        height: 64px;
-        margin-top: 41px;
-        margin-left: 41px;
-        background: #FFFFFF;
-        border: 1px solid #E5EAF4;
-        box-sizing: border-box;
-        border-radius: 8px;
-
-    }
-
-    &__mic {
-        width: 38.46px;
-        height: 34.73px;
-        margin-left: -50px;
-        margin-bottom: 15px;
-    }
+.borderIco {
+    width: 64px;
+    height: 64px;
+    margin-top: 41px;
+    margin-left: 41px;
+    background: #FFFFFF;
+    border: 1px solid #E5EAF4;
+    box-sizing: border-box;
+    border-radius: 8px;
 }
-
-.secondBlock {
-    &__bordermaf {
-        width: 64px;
-        height: 64px;
-        margin-top: 41px;
-        margin-left: 41px;
-        background: #FFFFFF;
-        border: 1px solid #E5EAF4;
-        box-sizing: border-box;
-        border-radius: 8px;
-        position: relative;
-    }
-
-    &__maf {
-        width: 38.46px;
+.ico {
+    width: 38.46px;
         height: 34.73px;
         margin-left: -55px;
         margin-bottom: 15px;
-        position: relative;
-
-    }
-}
-
-.thirdBlock {
-
-    &__borderapp {
-        width: 64px;
-        height: 64px;
-        margin-top: 41px;
-        margin-left: 41px;
-        background: #FFFFFF;
-        border: 1px solid #E5EAF4;
-        box-sizing: border-box;
-        border-radius: 8px;
-
-    }
-
-    &__mob {
-        width: 38.46px;
-        height: 34.73px;
-        margin-left: -55px;
-        margin-bottom: 15px;
-        position: relative;
-    }
 }
