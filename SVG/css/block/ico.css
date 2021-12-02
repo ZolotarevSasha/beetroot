@@ -6,8 +6,8 @@
   margin-left: 41px;
   background: #FFFFFF;
   border: 1px solid #E5EAF4;
+  box-sizing: border-box;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   border-radius: 8px;
 }
 .service__mic {

@@ -1,0 +1,99 @@
+/*.body {
+    min-width: 320px;
+    min-height: 3497px;
+    max-width: 1440px;
+    max-height: 4086px;
+    background-color: #FFFFFF;
+}
+*/
+@media screen and (max-width: 1440px) {
+  .FirstSection {
+    width: 1120px;
+    height: 470px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .FirstSection {
+    width: 734px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .FirstSection {
+    width: 288px;
+    height: 288px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .FirstSection {
+    width: 288px;
+    height: 288px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .FirstSection {
+    width: 734px;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .FirstSection {
+    width: 1120px;
+    height: 470px;
+  }
+}
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+
+/*.fistSection {
+    width: 1120px;
+    height: 790px;
+}
+.imgFirstSection {
+    width: 1120px;
+    height: 470px;
+    width: 100%;
+    height: auto;
+}*/
+/*.secondSection {
+    width: 1120px;
+    height: 758px;
+}
+.imgSecondSection {
+    width: 1120px;
+    height: 470px;
+}*/
+/*.thirdSection {
+    width: 1120px;
+    height: 694px;
+}
+.imgThirdSection {
+    width: 1120px;
+    height: 470px;
+}
+*/
+/*.name {
+    width: 168px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.title {
+    width: 456px;
+    height: 64px;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    display: inline;
+}
+
+.AYPM {
+    width: 1120px;
+    height: 470px;
+}*/
