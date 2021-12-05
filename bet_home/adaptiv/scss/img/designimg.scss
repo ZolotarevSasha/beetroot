@@ -1,0 +1,27 @@
+.design {
+    .image {
+        .img-content {
+            background-image: url('../img/mobile/Img04.jpg');
+        }
+    }
+
+@media screen and (min-width:768px) {
+    .design {
+        .image {
+            .img-content {
+                background-image: url('../img/tablet/Img04.jpg');
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1120px) {
+    .design {
+        .image {
+            .img-content {
+                background-image: url('../img/desktop/Img04.jpg');
+            }
+        }
+    }
+}
+}

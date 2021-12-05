@@ -1,0 +1,23 @@
+
+.body {
+    padding: 16px;
+    margin: 0 auto;
+    overflow-x:hidden;
+}
+
+.container {
+    min-width: 288px;
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 0px;
+    display: block;
+    width: 100%;
+    @media screen and ( min-width:768px) {
+        min-width: 768px;
+        max-width: 1119px;
+    }
+    @media screen and ( min-width:1120px) {
+        min-width: 1120px;
+        max-width: 1440px;
+    }
+}

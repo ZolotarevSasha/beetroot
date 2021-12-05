@@ -1,0 +1,43 @@
+.name {
+    position: absolute;
+    left: 16px;
+    top: 112px;
+    min-width: 172px;
+    min-height: 21px;
+    font-size: 16px;
+    line-height: 21.17px;
+    letter-spacing: 50%;
+}
+.text {
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 5%;
+    color: #565656;
+    font-family: 'Lato', sans-serif;
+}
+.overviev {
+    .text {
+        position: absolute;
+        min-width: 288px;
+        min-height: 448px;
+        top: 660px;
+        left: 16px;
+
+        @media screen and ( min-width:768px) {
+            min-width: 733px;
+            min-height: 192px;
+            position: absolute;
+            top: 784px;
+            left: 16px;
+        }
+        @media screen and ( min-width:1120px) {
+            min-width: 544px;
+            min-height: 256px;
+            position: absolute;
+            top: 873px;
+            left: 160px;
+        }
+    }
+}
+
+ 
