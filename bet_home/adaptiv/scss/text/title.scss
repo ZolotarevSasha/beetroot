@@ -1,12 +1,24 @@
-*{
-    font-family: 'Red Hat Display', sans-serif;}
+* {
+    font-family: 'Red Hat Display', sans-serif;
+}
 
 h1 {
-    position: absolute;
     width: 192px;
     height: 100px;
-    left: 16px;
-    top: 172px;
+    margin: 39px 112px 0 16px;
+
+    @media screen and (min-width:768px) {
+        min-width: 489px;
+        min-height: 50px;
+        margin-right: 263px;
+
+    }
+
+    @media screen and (min-width:1024px) {
+        min-width: 456px;
+        min-height: 64px;
+        margin: 48px 824px 0 20px;
+    }
 }
 
 h2 {
@@ -16,4 +28,6 @@ h2 {
     font-size: 33px;
     line-height: 50px;
     letter-spacing: 5%;
+
 }
+

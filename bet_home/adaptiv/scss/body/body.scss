@@ -1,8 +1,7 @@
-
 .body {
     padding: 16px;
     margin: 0 auto;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 .container {
@@ -12,12 +11,65 @@
     padding: 0px;
     display: block;
     width: 100%;
-    @media screen and ( min-width:768px) {
+
+    @media screen and (min-width:768px) {
         min-width: 768px;
         max-width: 1119px;
     }
-    @media screen and ( min-width:1120px) {
+
+    @media screen and (min-width:1024px) {
         min-width: 1120px;
         max-width: 1440px;
     }
 }
+
+/*
+.overviev section {
+    min-width: 288px;
+    min-height: 1030px;
+
+    @media screen and (min-width:768px) {
+        min-width: 768px;
+        max-width: 1119px;
+    }
+
+    @media screen and (min-width:1024px) {
+        min-width: 1120px;
+        max-width: 1440px;
+    }
+
+}
+
+.research section {
+    min-width: 288px;
+    max-width: 767px;
+    max-height: 1030px;
+
+    @media screen and (min-width:768px) {
+        min-width: 768px;
+        max-width: 1119px;
+        max-height: ;
+    }
+
+    @media screen and (min-width:1024px) {
+        min-width: 1120px;
+        max-width: 1440px;
+    }
+}
+.initial section {
+    min-width: 288px;
+    min-height: 1030px;
+
+    @media screen and (min-width:768px) {
+        min-width: 768px;
+        max-width: 1119px;
+    }
+
+    @media screen and (min-width:1024px) {
+        min-width: 1120px;
+        max-width: 1440px;
+    }
+
+}
+
+*/

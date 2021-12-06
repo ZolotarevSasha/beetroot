@@ -16,12 +16,12 @@
     }
 }
 
-@media screen and (min-width:1120px) {
+@media screen and (min-width:1024px) {
     .initial {
         .image {
             .img-content {
                 background-image: url('../img/desktop/Img03.jpg');
-                
+                margin-left: 50px;
             }
         }
     }

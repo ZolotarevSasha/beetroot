@@ -1,31 +1,27 @@
 .title-img {
     background-image: url('../img/mobile/Img01.jpg');
-    position: absolute;
-    left: 16px;
-    top: 324px;
+    
+    
+   
 
     @media screen and (min-width:768px) {
         .research {
             .image {
                 .img-content {
                     background-image: url('../img/tablet/Img01.jpg');
-                    position: absolute;
-                    left: 16px;
-                    top: 274px;
+                    
 
                 }
             }
         }
     }
 
-    @media screen and (min-width:1120px) {
+    @media screen and (min-width:1024px) {
         .research {
             .image {
                 .img-content {
                     background-image: url('../img/desktop/Img01.jpg');
-                    position: absolute;
-                    left: 160px;
-                    top: 273px;
+                    
                 }
             }
         }

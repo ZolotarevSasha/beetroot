@@ -2,9 +2,12 @@
     .image {
         .img-content {
             background-image: url('../img/mobile/Img02.jpg');
-            
+            margin: 32px 55px 0 -16px;
+            padding-right: 16px;
+
         }
     }
+}
 
 
 @media screen and (min-width:768px) {
@@ -12,18 +15,20 @@
         .image {
             .img-content {
                 background-image: url('../img/tablet/Img02.jpg');
+                margin-top: 60px ;
             }
         }
     }
 }
 
-@media screen and (min-width:1120px) {
+@media screen and (min-width:1024px) {
     .research {
         .image {
             .img-content {
                 background-image: url('../img/desktop/Img02.jpg');
+                margin-top: 90px;
+
             }
         }
     }
-}
 }
