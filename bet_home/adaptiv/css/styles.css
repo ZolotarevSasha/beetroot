@@ -6,7 +6,7 @@
 
 .container {
   min-width: 288px;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0px auto;
   padding: 0px;
   display: block;
@@ -18,7 +18,7 @@
     max-width: 1119px;
   }
 }
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1024px) {
   .container {
     min-width: 1120px;
     max-width: 1440px;
@@ -35,7 +35,7 @@
         max-width: 1119px;
     }
 
-    @media screen and (min-width:1120px) {
+    @media screen and (min-width:1024px) {
         min-width: 1120px;
         max-width: 1440px;
     }
@@ -53,7 +53,7 @@
         max-height: ;
     }
 
-    @media screen and (min-width:1120px) {
+    @media screen and (min-width:1024px) {
         min-width: 1120px;
         max-width: 1440px;
     }
@@ -67,7 +67,7 @@
         max-width: 1119px;
     }
 
-    @media screen and (min-width:1120px) {
+    @media screen and (min-width:1024px) {
         min-width: 1120px;
         max-width: 1440px;
     }
@@ -83,45 +83,50 @@
     background-image: url("../img/tablet/Img01.jpg");
   }
 }
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1024px) {
   .title-img .research .image .img-content {
     background-image: url("../img/desktop/Img01.jpg");
   }
 }
 
-.research .image .img-content {
-  background-image: url("../img/mobile/Img02.jpg");
-  margin: 32px 55px 0 -16px;
-  padding-right: 16px;
+@media screen and (min-width: 320px) {
+  .research .image .img-content {
+    background-image: url("../img/mobile/Img02.jpg");
+    margin-top: 32px;
+    padding-right: 16px;
+    margin-right: 16px;
+  }
 }
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 320px) and (min-width: 768px) {
   .research .image .img-content {
     background-image: url("../img/tablet/Img02.jpg");
     margin-top: 60px;
   }
 }
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 320px) and (min-width: 1024px) {
   .research .image .img-content {
     background-image: url("../img/desktop/Img02.jpg");
     margin-top: 90px;
   }
 }
+* {
+  margin-top: 40px;
+}
+
 .initial .image .img-content {
   background-image: url("../img/mobile/Img03.jpg");
 }
+
 @media screen and (min-width: 768px) {
-  .initial .initial .image .img-content {
+  .initial .image .img-content {
     background-image: url("../img/tablet/Img03.jpg");
   }
 }
-@media screen and (min-width: 1120px) {
-  .initial .initial .image .img-content {
+@media screen and (min-width: 1024px) {
+  .initial .image .img-content {
     background-image: url("../img/desktop/Img03.jpg");
-    margin-left: 50px;
   }
 }
-
 .design .image .img-content {
   background-image: url("../img/mobile/Img04.jpg");
 }
@@ -130,7 +135,7 @@
     background-image: url("../img/tablet/Img04.jpg");
   }
 }
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1024px) {
   .design .design .image .img-content {
     background-image: url("../img/desktop/Img04.jpg");
   }
@@ -153,7 +158,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: calc(100vw - 16px);
+    width: calc(95vw - 16px);
     height: calc(90vw - 32px);
     min-width: 288px;
     min-height: 288px;
@@ -164,21 +169,22 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: calc(100vw - 32px);
+    width: calc(98vw - 32px);
     height: calc(90vw - 32px);
     min-width: 743px;
     min-height: 400px;
   }
 }
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1024px) {
   .img-content {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: calc(100vw - 32px);
-    height: calc(50vw - 32px);
+    width: 100%;
+    height: 50vw;
     min-width: 1120px;
     min-height: 470px;
+    margin-left: 50px;
   }
 }
 .section .image {
@@ -203,11 +209,11 @@
     margin-right: 314px;
   }
 }
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1024px) {
   .name {
     min-width: 168px;
     min-height: 24px;
-    margin: 73px 1114px 0 16px;
+    margin: 73px 1114px 0 60px;
   }
 }
 
@@ -220,7 +226,6 @@
   font-family: "Lato", sans-serif;
   margin: 32px 16px 0 0;
 }
-
 .overviev .text {
   min-height: 448px;
   width: 85vw;
@@ -234,17 +239,17 @@
     width: 90vw;
   }
 }
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1024px) {
   .overviev .text {
     min-width: 544px;
     min-height: 256px;
-    margin: 40px 736px 0 0;
+    margin: 40px 736px 0 60px;
   }
 }
 
 .research .text {
   min-height: 448px;
-  margin-top: 465px;
+  margin-top: 400px;
   width: 75vw;
 }
 @media screen and (min-width: 768px) {
@@ -255,11 +260,33 @@
     margin: 526px 0 0 0;
   }
 }
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1024px) {
   .research .text {
     min-width: 544px;
     min-height: 256px;
-    margin: 550px 736px 0 0;
+    margin: 550px 736px 0 50px;
+  }
+}
+
+.initial .text {
+  min-height: 448px;
+  margin-top: 465px;
+  width: 75vw;
+  margin-top: 348px;
+}
+@media screen and (min-width: 768px) {
+  .initial .text {
+    width: 90vw;
+    min-height: 192px;
+    padding-top: 16px;
+    margin: 516px 0 0 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .initial .text {
+    min-width: 544px;
+    min-height: 256px;
+    margin: 580px 736px 0 50px;
   }
 }
 
@@ -271,19 +298,22 @@ h1 {
   width: 192px;
   height: 100px;
   margin: 39px 112px 0 16px;
+  font-size: 33px;
 }
 @media screen and (min-width: 768px) {
   h1 {
     min-width: 489px;
     min-height: 50px;
     margin-right: 263px;
+    font-size: 33px;
   }
 }
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1024px) {
   h1 {
     min-width: 456px;
     min-height: 64px;
-    margin: 48px 824px 0 20px;
+    margin: 48px 824px 0 60px;
+    font-size: 48px;
   }
 }
 
@@ -296,11 +326,15 @@ h2 {
   line-height: 50px;
   letter-spacing: 5%;
 }
+@media screen and (min-width: 1024px) {
+  h2 {
+    margin-left: 60px;
+  }
+}
 
 * {
   width: 288px;
   height: 38px;
-  margin: 0 16px;
 }
 
 .overviev .title {
@@ -312,7 +346,7 @@ h2 {
     margin-top: 56px;
   }
 }
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1024px) {
   .overviev .title {
     width: 288px;
     margin-top: 130px;
@@ -330,7 +364,7 @@ h2 {
     margin-top: 206px;
   }
 }
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1024px) {
   .research .title {
     min-width: 288px;
     min-height: 38px;
@@ -350,31 +384,32 @@ h2 {
     margin-top: 840px;
   }
 }
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1024px) {
   .initial .title {
     width: 288px;
     height: 38px;
     margin-top: 843px;
+    margin-left: 50px;
   }
 }
 
-/*
-.design {
-    .title {
-        position: absolute;
-        left: 16px;
-        top: 3183px;
-        @media screen and (min-width:768px) {
-            width: 733px;
-            height: 38px;
-
-        }
-
-        @media screen and (min-width:1120px) {
-            width: 288px;
-            height: 38px;
-
-        }
-    }
+@media screen and (min-width: 320px) {
+  .design .title {
+    padding: 0;
+    margin-top: 0;
+  }
 }
-*/
+@media screen and (min-width: 768px) {
+  .design .title {
+    width: 733px;
+    height: 38px;
+    margin-top: 1px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .design .title {
+    width: 288px;
+    height: 38px;
+    margin-top: 18px;
+  }
+}

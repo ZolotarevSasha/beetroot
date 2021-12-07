@@ -1,7 +1,8 @@
 * {
     width: 288px;
     height: 38px;
-    margin: 0 16px;
+    
+    
 }
 
 .overviev {
@@ -49,32 +50,35 @@
             width: 733px;
             height: 38px;
             margin-top: 840px;
-        }
-
-        @media screen and (min-width:1024px) {
-            width: 288px;
-            height: 38px;
-            margin-top: 843px;
-        }
-    }
-}
-/*
-.design {
-    .title {
-        position: absolute;
-        left: 16px;
-        top: 3183px;
-        @media screen and (min-width:768px) {
-            width: 733px;
-            height: 38px;
             
         }
 
         @media screen and (min-width:1024px) {
             width: 288px;
             height: 38px;
-           
+            margin-top: 843px;
+            margin-left: 50px;
+            
         }
     }
 }
-*/
+
+.design {
+    .title {
+        @media screen and (min-width:320px) {
+            padding: 0;
+            margin-top: 0;
+        }
+        @media screen and (min-width:768px) {
+            width: 733px;
+            height: 38px;
+            margin-top: 1px;
+        }
+
+        @media screen and (min-width:1024px) {
+            width: 288px;
+            height: 38px;
+            margin-top: 18px;
+        }
+    }
+}

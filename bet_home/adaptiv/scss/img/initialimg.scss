@@ -1,3 +1,7 @@
+* {
+    margin-top: 40px;
+}
+
 .initial {
     .image {
         .img-content {
@@ -5,6 +9,7 @@
             
         }
     }
+}
 @media screen and (min-width:768px) {
     .initial {
         .image {
@@ -21,9 +26,10 @@
         .image {
             .img-content {
                 background-image: url('../img/desktop/Img03.jpg');
-                margin-left: 50px;
+                
+                
             }
         }
     }
 }
-}
+
