@@ -21,20 +21,26 @@
 
 .text {
     min-width: 288px;
+    min-height: 352px;
     font-size: 19px;
     line-height: 32px;
     letter-spacing: 5%;
     color: #565656;
     font-family: 'Lato', sans-serif;
-    margin: 32px 16px 0 0;
+    margin: 0 16px 0 0;
 
-    @media screen and (min-width:1024px) {}
+    @media screen and (min-width:768px) {
+
+    }
+    @media screen and (min-width:1024px) {
+        margin-left: 50px;
+    }
 
 }
 
 .overviev {
     .text {
-        min-height: 448px;
+        
         width: 85vw;
 
         @media screen and (min-width:768px) {
@@ -50,7 +56,7 @@
         @media screen and (min-width:1024px) {
             min-width: 544px;
             min-height: 256px;
-            margin: 40px 736px 0 60px;
+            margin: 0 736px 0 60px;
 
         }
     }
@@ -59,22 +65,18 @@
 .research {
     .text {
         min-height: 448px;
-        margin-top: 400px;
         width: 75vw;
 
         @media screen and (min-width:768px) {
             width: 90vw;
             min-height: 192px;
-            padding-top: 16px;
-            margin: 526px 0 0 0;
-
-
+            
+    
         }
 
         @media screen and (min-width:1024px) {
             min-width: 544px;
             min-height: 256px;
-            margin: 550px 736px 0 50px;
         }
     }
 }
@@ -82,21 +84,40 @@
 .initial {
     .text {
         min-height: 448px;
-        margin-top: 465px;
         width: 75vw;
-        margin-top: 348px;
-
+        
         @media screen and (min-width:768px) {
             width: 90vw;
             min-height: 192px;
-            padding-top: 16px;
-            margin: 516px 0 0 0;
+            
+            
         }
 
         @media screen and (min-width:1024px) {
             min-width: 544px;
             min-height: 256px;
-            margin: 580px 736px 0 50px;
+            
+        }
+    }
+}
+
+.design {
+    .text {
+        min-height: 448px;
+        width: 75vw;
+        
+
+        @media screen and (min-width:768px) {
+            width: 90vw;
+            min-height: 192px;
+            
+            
+        }
+
+        @media screen and (min-width:1024px) {
+            min-width: 544px;
+            min-height: 256px;
+            
         }
     }
 }

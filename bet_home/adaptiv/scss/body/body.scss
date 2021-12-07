@@ -23,11 +23,12 @@
     }
 }
 
-/*
+
 .overviev section {
     min-width: 288px;
     min-height: 1030px;
-
+    max-width: 767px;
+    
     @media screen and (min-width:768px) {
         min-width: 768px;
         max-width: 1119px;
@@ -48,7 +49,7 @@
     @media screen and (min-width:768px) {
         min-width: 768px;
         max-width: 1119px;
-        max-height: ;
+        
     }
 
     @media screen and (min-width:1024px) {
@@ -58,7 +59,7 @@
 }
 .initial section {
     min-width: 288px;
-    min-height: 1030px;
+    min-height: 798px;
 
     @media screen and (min-width:768px) {
         min-width: 768px;
@@ -72,4 +73,18 @@
 
 }
 
-*/
+.design section {
+    min-width: 288px;
+    min-height: 766px;
+
+    @media screen and (min-width:768px) {
+        min-width: 768px;
+        max-width: 1119px;
+    }
+
+    @media screen and (min-width:1024px) {
+        min-width: 1120px;
+        max-width: 1440px;
+    }
+
+}
